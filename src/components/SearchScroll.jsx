@@ -44,9 +44,9 @@ export const SearchScroll = () => {
   return (
     <>
       <div  data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"
-       className="container mt-3 pt-2 d-flex justify-content flex-row  "> 
+       className="container mt-1 pt-2 d-flex justify-content flex-row  "> 
        {list.map((l) => 
-              <button id="#list-example" className='bg-secondary text-white ps-3 pe-3 m-2 border-0 rounded-3'>{l.value}</button>
+              <button id="#list-example" className='bg-gray-700 text-white ps-3 pe-3 m-2 border-0 rounded-3'>{l.value}</button>
             )}
 
          </div>

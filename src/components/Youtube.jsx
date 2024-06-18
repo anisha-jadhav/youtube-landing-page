@@ -6,11 +6,14 @@ import { MainContent } from './MainContent'
 export const Youtube = () => {
   return (
     <>
+    <div className="d-flex flex-row overflow-y-scroll">
     <div className="">
-      <Search/>
+    <LeftScroll/>
     </div>
-   
-    
+    <div className='w-100 '>
+    <Search/>
+    </div>
+    </div>  
     </>
   )
 }

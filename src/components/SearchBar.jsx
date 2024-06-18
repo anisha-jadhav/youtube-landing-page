@@ -9,12 +9,12 @@ import {
 export const SearchBar = () => {
   return (
     <>
-      <nav className="navbar navbar-light mb-2 d-flex flex-row fixed-top d-flex bg-dark ">
-        <div className="container-fluid ">
-          <div className="col-2 navbar-brand text-light ">Youtube </div>
-          <div className="col-6 rounded-5 d-flex  p-0 bg-secondary  ">
+      <nav className="navbar navbar-dark mb-1 ">
+        <div className="container-fluid justify-content-around ">
+          <div className=" navbar-brand text-light ">Youtube </div>
+          <div className="col-6 rounded-5 d-flex  p-0 bg-gray-700 ">
             <input
-              className="rounded-start-5 m-0 p-0 form-control me-2 bg-dark text-white-50"
+              className="rounded-start-5 rounded-end-0 border-secondary m-0 p-0 form-control me-2 bg-dark text-white-50"
               type="search"
               placeholder="Search"
               aria-label="Search"
@@ -24,10 +24,10 @@ export const SearchBar = () => {
               className="rounded-end-5 m-1 p-2 me-3 text-white"
             />
           </div>
-          <div className=" rounded-circle m-1 p-2  bg-secondary">
-            <FontAwesomeIcon icon={faMicrophone} />
+          <div className=" rounded-circle m-1 p-2 bg-gray-700">
+          <FontAwesomeIcon icon={faMicrophone}  className="text-white"/>
           </div>
-          <div className="btn bg-secondary rounded-pill m-2 text-bg-info">
+          <div className="btn bg-dark hover:bg-blue-700 border-secondary rounded-pill  align-align-items-end text-info">
             <FontAwesomeIcon icon={faCircleUser} className="me-2" />
             Sign in
           </div>
