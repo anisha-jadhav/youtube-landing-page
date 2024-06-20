@@ -38,15 +38,34 @@ export const SearchScroll = () => {
     {
       "id":9,
       "value":"Nature",
+    }, 
+    {
+      "id":10,
+      "value":"Enginnering",
+    },
+    {
+      "id":11,
+      "value":"English",
+    }, 
+    {
+      "id":12,
+      "value":"Podcast",
+    },
+    {
+      "id":13,
+      "value":"Tour",
+    }, 
+    {
+      "id":14,
+      "value":"Home",
     }
-
   ])
   return (
     <>
-      <div  data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"
-       className="container mt-1 pt-2 d-flex justify-content flex-row  "> 
+      <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-example" tabindex="0"
+       className=" container mt-0 pt-2 d-flex justify-content flex-row overflow-x-scroll-hidden "> 
        {list.map((l) => 
-              <button id="#list-example" className='bg-gray-700 text-white ps-3 pe-3 m-2 border-0 rounded-3'>{l.value}</button>
+              <button id="#list-example" className='bg-dark text-white ps-3 pe-3 m-2 border-0 rounded-3'>{l.value}</button>
             )}
 
          </div>

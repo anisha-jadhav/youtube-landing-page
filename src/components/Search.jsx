@@ -4,7 +4,7 @@ import {SearchScroll} from './SearchScroll'
 
 export const Search = () => {
   return (
-    <div className='mb-3 bg-dark '>
+    <div className='mb-3 bg-black   '>
       <div className="p-2"><SearchBar/></div>
       <div className="p-2"><SearchScroll/></div>
       

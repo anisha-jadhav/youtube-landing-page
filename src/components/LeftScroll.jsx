@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const LeftScroll = () => {
   return (
     <>
-      <div className="container-sm-1  h-100 bg-dark text-white ">
+      <div className="container-sm-1 fixed h-100 bg-black text-white ">
         <div className="mb-4 ms-4 pt-4 ps-1 justify-content-center ">
         <FontAwesomeIcon icon={faBars}  className="p-1 ms-2"/>
         </div>
